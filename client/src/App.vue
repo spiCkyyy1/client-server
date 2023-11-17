@@ -1,17 +1,20 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld/>
-  <!-- <HelloWorld msg="Hello Lameya, Bye."/> -->
+  <taskList />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import taskList from './components/TaskList.vue'
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    // HelloWorld,
+    taskList
+  },
+  data(){
+    return {
+      
+    }
+  },
 }
 </script>
 
